@@ -11,7 +11,7 @@ const UserPage = () => (
 
       <Row style={{ width: '20%', marginTop:10, marginLeft: 15 }}>
         
-      <Form.Floating className="mb-3">
+      <Form.Floating className="mb-3" >
         <Form.Control
           id="floatingInputCustom"
           type="email"
@@ -19,6 +19,8 @@ const UserPage = () => (
         />
         <label htmlFor="floatingInputCustom">Email</label>
       </Form.Floating>
+
+
       <Form.Floating>
         <Form.Control
           id="floatingPasswordCustom"
@@ -26,6 +28,44 @@ const UserPage = () => (
           placeholder="Password"
         />
         <label htmlFor="floatingPasswordCustom">Password</label>
+      </Form.Floating>
+
+      <Form.Floating style={{marginTop:10 }}>
+        <Form.Control
+          id="floatingPasswordCustom"
+          type="text"
+          placeholder="pra"
+        />
+        <label htmlFor="floatingPasswordCustom">Username</label>
+      </Form.Floating>
+
+      <Form.Floating style={{marginTop:10 }}>
+        <Form.Control
+          id="floatingPasswordCustom"
+          type="text"
+          placeholder="pra"
+        />
+        <label htmlFor="floatingPasswordCustom">Имя пользователя</label>
+      </Form.Floating>
+
+
+      <Form.Floating style={{marginTop:10 }}>
+        <Form.Control
+          id="floatingPasswordCustom"
+          type="text"
+          placeholder="ISPI"
+        />
+        <label htmlFor="floatingPasswordCustom">Кафедра</label>
+      </Form.Floating>
+
+
+      <Form.Floating style={{marginTop:10 }}>
+        <Form.Control
+          id="floatingPasswordCustom"
+          type="text"
+          placeholder="admin"
+        />
+        <label htmlFor="floatingPasswordCustom">Роль</label>
       </Form.Floating>
       </Row>
 
